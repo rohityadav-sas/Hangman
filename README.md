@@ -1,6 +1,7 @@
 # Hangman Game in Python
 
-Table of Contents
+## Table of Contents
+- [Preview](#preview)
 - [Description](#description)
 - [How to Play](#how-to-play)
 - [Features](#features)
@@ -8,6 +9,9 @@ Table of Contents
 - [Usage](#usage)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+
+## Preview
+
 
 ## Description
 
@@ -36,16 +40,17 @@ In this game, a random word is chosen from a predefined list, and the player has
 
 1. Clone the repository:
     ```bash
-    pass
+    git clone https://github.com/rohityadav-sas/Hangman
 
 2. Navigate to the directory:
     ```bash
-    pass
+    cd Hangman
 
 3. Run the script:
-    python pass
+    python Hangman.py
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments

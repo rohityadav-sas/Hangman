@@ -19,24 +19,37 @@ def update_progress(guess, word_list):
             user_progress[index] = letter
             found = True
     if not found:
-        print("Wrong guess!")
+        print("\nWrong guess!")
         remaining_guesses -= 1
-        print(remaining_guesses, "guesses remaining")
+        print(f"\n{remaining_guesses} guesses remaining")
 
 
 def play_game():
-    print(user_progress)
-    user_input = input("Guess a letter: ")
-    if user_input == "":
-        play_game()
-    update_progress(user_input, word_list)
+    global game_over
+    print("\n-------------------")
+    print("Welcome to Hangman!")
+    print("-------------------")
+    print("\nTry to guess the word!")
+
+    while not game_over:
+        print("\n", " ".join(user_progress))
+        user_input = input("\nGuess a letter: ").lower()
+        if user_input == "":
+            continue
+        update_progress(user_input, word_list)
+
+        if remaining_guesses == 0:
+            game_over = True
+            print(f"\nYou lost! The word was: {random_word}\n")
+        elif "_" not in user_progress:
+            game_over = True
+            print("\n", " ".join(user_progress))
+            print("\nCongratulations! You won!\n")
+
+    print("=====================")
+    print("Thank you for playing!")
+    print("=====================")
 
 
-while not game_over:
+if __name__ == "__main__":
     play_game()
-    if remaining_guesses == 0:
-        game_over = True
-        print("You lost! The word was:", random_word)
-    elif "_" not in user_progress:
-        game_over = True
-        print("Congratulations! You won!")

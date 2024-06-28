@@ -12,7 +12,7 @@
 
 ## Preview
 
-![bro.png](./assets/bro.png?raw=true)
+![preview.png](./assets/preview.png?raw=true)
 
 ## Description
 

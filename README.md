@@ -1,5 +1,5 @@
 # Hangman Game in Python
-    In this game, a random word is chosen from a predefined list, and the player has to guess letters in the word. Each correct guess reveals the positions of the guessed letter in the word. The player has a limited number of incorrect guesses before they lose the game.
+In this game, a random word is chosen from a predefined list, and the player has to guess letters in the word. Each correct guess reveals the positions of the guessed letter in the word. The player has a limited number of incorrect guesses before they lose the game.
 
 ## Table of Contents
 - [Preview](#preview)

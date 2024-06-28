@@ -12,6 +12,7 @@
 
 ## Preview
 
+![preview.png](./assets/preview.png?raw=true)
 
 ## Description
 

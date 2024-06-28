@@ -1,6 +1,13 @@
 # Hangman Game in Python
 
-This is a simple implementation of the classic "Hangman" game in Python. 
+Table of Contents
+- [Description](#description)
+- [How to Play](#how-to-play)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ## Description
 

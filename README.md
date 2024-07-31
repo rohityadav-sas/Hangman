@@ -39,13 +39,17 @@ In this game, a random word is chosen from a predefined list, and the player has
 1. Clone the repository:
     ```bash
     git clone https://github.com/rohityadav-sas/Hangman
+    ```
 
 2. Navigate to the directory:
     ```bash
     cd Hangman
+    ```
 
 3. Run the script:
-    python Hangman.py
+   ```bash
+   python Hangman.py
+   ```
 
 ## License
 

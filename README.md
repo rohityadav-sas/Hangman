@@ -6,10 +6,9 @@ In this game, a random word is chosen from a predefined list, and the player has
 - [Preview](#preview)
 - [How to Play](#how-to-play)
 - [Features](#features)
-- [Requirements](#requirements)
 - [Usage](#usage)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Contributing](#contributing)
 
 ## Preview
 
@@ -30,10 +29,6 @@ In this game, a random word is chosen from a predefined list, and the player has
 - Progress tracking of guessed letters.
 - Simple command-line interface.
 
-## Requirements
-
-- Python 3.x
-
 ## Usage
 
 1. Clone the repository:
@@ -53,8 +48,8 @@ In this game, a random word is chosen from a predefined list, and the player has
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the ISC License. See the [LICENSE](./LICENSE) file for details.
 
-## Acknowledgments
+## Contributing
 
-This project is part of my learning phase in Python programming.
+Contributions are welcome! Please feel free to submit a Pull Request.
